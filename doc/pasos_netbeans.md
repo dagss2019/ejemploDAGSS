@@ -51,6 +51,7 @@ Sobre el proyecto `ejemploDAGSS`: `[botón derecho] > New > Other > GlassFish > 
                 * URL: `jdbc:mysql://localhost:3306/pruebas_dagss?relaxAutoCommit=true`
                 * User: `dagss`
                 * Password: `dagss`
+                * useSSL: `false`   (añadir esta opción)
             * Opciones por defecto en _Specify optional properties for Connection Pool_ + [botón Finish]
 
 En `ejemploDAGSS > Web Pages > WEB-INF` se creará el fichero de configuración `glassFishResources.xml`
