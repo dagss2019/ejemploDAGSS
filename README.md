@@ -34,6 +34,12 @@ Proyecto Java EE 7 de ejemplo para DAGSS 2019/20
    mysql> grant all privileges on pruebas_dagss.* to dagss@localhost;
    ```
 
+   Adicionalmente, puede ser necesario establecer un formato de fecha compatible
+   ```
+   mysql> set @@global.time_zone = '+00:00';
+   mysql> set @@session.time_zone = '+00:00';
+   ```  
+
 * Descargar copia del proyecto desde GitHub
    ```
    git clone https://github.com/dagss2019/ejemploDAGSS.git
